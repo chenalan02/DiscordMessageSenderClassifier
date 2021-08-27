@@ -3,7 +3,7 @@ import pandas as pd
 
 #message filter
 def is_wanted_message (msg):
-    if len(msg.content.split()) < 6:
+    if len(msg.content.split()) < 4:
         return False
     elif msg.content.startswith("-"):
         return False
