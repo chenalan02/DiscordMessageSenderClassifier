@@ -17,7 +17,7 @@ def is_wanted_message (msg):
         return True
 
 #token not included on Github file for security concerns
-TOKEN = 'ODYwNjA5NTMwNzY1MjQ2NDk0.YN9vFQ.VnoRe6ODwJsTk4R2kWx4DA8Zlz8'
+TOKEN = ''
 
 client = discord.Client()
 
