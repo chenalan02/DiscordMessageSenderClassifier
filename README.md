@@ -12,7 +12,7 @@ Links and bot commands were filtered out. Messages were also filtered to be 10 w
 
 The user nicholas had about twice as much message data than everyone else. To prevent this data inbalance, about 500 of his messages were removed from the data. There was not a noticible loss of accuracy from this loss in data.
 
-## Results and Confusion Matrix
+## Results
 Although an accuracy of 67% would be less than desirable in a commerical situation, I think it is a fine result given the data. Although the discord channel is used regularily, we usually communicate through voice call and typically only very short messages are used. In fact the data used to train the model makes up less than 5% of all messages. Looking through the csv file, alot of our longer messages also consist of quotes, song lyrics or spam. Due to the nature of texting, sentences can also be cut up into multiple texts, such as the example below.
 
 ![Message Split](https://user-images.githubusercontent.com/66447477/131065858-9530c8e1-2224-4851-b119-fbf043885e5c.png)
